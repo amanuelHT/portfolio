@@ -1,12 +1,12 @@
 import { useCallback } from "react";
 import Particles from "react-tsparticles";
-import { loadSlim } from "tsparticles-slim"; // ✅ Fixed: use slim version
-import profileImg from './assets/profile.png';
+import { loadSlim } from "tsparticles-slim"; 
+import profileImg from './assets/profile.jpg';
 
 const Hero = () => {
   // Initialize particles
   const particlesInit = useCallback(async (engine) => {
-    await loadSlim(engine); // ✅ Use slim version to avoid error
+    await loadSlim(engine); 
   }, []);
 
   const particlesOptions = {
