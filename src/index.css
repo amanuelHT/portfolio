@@ -5,3 +5,37 @@
 html {
   scroll-behavior: smooth;
 }
+
+
+/* 🔡 Typewriter effect with pause, loop, and blinking cursor */
+.typing-text {
+  animation: typing 4s steps(28, end) infinite, blink 0.7s step-end infinite;
+  white-space: nowrap;
+  overflow: hidden;
+  display: inline-block;
+  border-right: 4px solid #f6e8d7;
+}
+
+@keyframes typing {
+  0% {
+    width: 0%;
+  }
+  70% {
+    width: 100%;
+  }
+  85% {
+    width: 100%;
+  }
+  100% {
+    width: 0%;
+  }
+}
+
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+  100% {
+    border-color: #f6e8d7;
+  }
+}

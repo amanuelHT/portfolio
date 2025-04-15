@@ -1,7 +1,7 @@
 import { useCallback } from "react";
 import Particles from "react-tsparticles";
 import { loadSlim } from "tsparticles-slim"; 
-import profileImg from './assets/profile.jpg';
+import profileImg from './assets/profile.png';
 
 const Hero = () => {
   // Initialize particles
@@ -45,24 +45,41 @@ const Hero = () => {
     className="absolute inset-0 z-0"
   />
 
-  <div className="max-w-7xl mx-auto h-full flex flex-col md:flex-row items-center justify-start md:justify-center gap-64 pt-12  md:pt-20 relative z-10">
+<div className="max-w-7xl mx-auto h-full flex flex-col md:flex-row items-center justify-start md:justify-center gap-10 md:gap-24 pt-12 md:pt-20 relative z-10">
+
     {/* Left - Text */}
-    <div className="text-center md:text-left animate-fade-in">
-      <h1 className="text-5xl font-extrabold leading-tight mb-4">
-        Hi, I'm <br /> Amanuel Tsegay!
-      </h1>
-      <p className="text-xl font-light">I'm a Front-end Developer.</p>
+    <div className="text-center md:text-left animate-fade-in md:-mt-32">
+
+   
+    <h1 className="text-4xl md:text-7xl text-white font leading-tight text-accent md:ml-10">
+
+  Hi, I’m <br />
+  <span className="text-5xl md:text-6xl text-white font-bold block">Amanuel</span>
+  <span className="text-5xl md:text-6xl font-bold  text-white block">Tsegay!</span>
+</h1>
+
+{/* Spacing before subtitle */}
+<div className="mt-10">
+<p className="typing-text text-3xl md:text-5xl font-bold text-white bg-primary px-6 py-3 rounded-full border-r-4 border-white whitespace-nowrap overflow-hidden w-fit mx-auto">
+  A Full Stack Software Developer
+</p>
+
+  
+</div>
+
+
     </div>
 
     {/* Right - Profile */}
     <div className="animate-fade-in delay-200">
-      <div className="w-72 h-72 rounded-full border-[6px] border-[#fdf0d5] overflow-hidden">
-        <img
-          src={profileImg}
-          alt="profile"
-          className="w-full h-full object-cover"
-        />
-      </div>
+    <div className="rounded-full   p-1 bg-[#f6e8d7]">
+  <img
+    src={profileImg}
+    alt="Profile"
+    className="w-[300px] h-[380px] object-top object-cover rounded-full"
+  />
+</div>
+
     </div>
   </div>
 </section>
