@@ -1,4 +1,4 @@
-import { FaLinkedin, FaGithub, FaGitlab, FaBitbucket } from "react-icons/fa";
+/*import { FaLinkedin, FaGithub, FaGitlab, FaBitbucket } from "react-icons/fa";*/
 
 
 const Contact = () => {
@@ -25,9 +25,9 @@ const Contact = () => {
           </button>
         </a>
 
-        {/* Social icons */}
+        {/* Social icons 
         <div className="flex justify-center gap-6 mt-8 text-2xl">
-  {/* LinkedIn */}
+  
   <a
     href="https://linkedin.com"
     target="_blank"
@@ -37,7 +37,7 @@ const Contact = () => {
     <FaLinkedin />
   </a>
 
-  {/* GitHub */}
+
   <a
     href="https://github.com"
     target="_blank"
@@ -47,7 +47,7 @@ const Contact = () => {
     <FaGithub />
   </a>
 
-  {/* GitLab */}
+
   <a
     href="https://gitlab.com"
     target="_blank"
@@ -57,7 +57,7 @@ const Contact = () => {
     <FaGitlab />
   </a>
 
-  {/* Bitbucket */}
+
   <a
     href="https://bitbucket.org"
     target="_blank"
@@ -66,7 +66,7 @@ const Contact = () => {
   >
     <FaBitbucket />
   </a>
-</div>
+</div> */}
 
       </div>
     </section>
