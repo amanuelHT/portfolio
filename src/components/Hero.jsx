@@ -55,7 +55,7 @@ const Hero = () => {
 
   Hi, I’m <br />
   <span className="text-5xl md:text-6xl text-white font-bold block">Amanuel</span>
-  <span className="text-5xl md:text-6xl font-bold  text-white block">Tsegay!</span>
+  <span className="text-5xl md:text-6xl font-bold  text-white block">Hayele!</span>
 </h1>
 
 {/* Spacing before subtitle */}
