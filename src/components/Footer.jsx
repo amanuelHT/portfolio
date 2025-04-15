@@ -48,8 +48,8 @@ const Footer = () => {
       />
 
            <div className="relative z-10 max-w-5xl mx-auto">
-       {/* Footer Content 
-  <p className="text-lg font-semibold mb-6">Let’s get social!</p> */}
+       {/* Footer Content */
+  <p className="text-lg font-semibold mb-6">Social!</p> }
 
         {/* Social Icons */}
         <div className="flex justify-center gap-6 mb-6">
@@ -88,7 +88,7 @@ const Footer = () => {
         </div>
 
         <p className="text-sm">
-          &copy; {new Date().getFullYear()} Amanuel Tsegay. All rights reserved.
+          &copy; {new Date().getFullYear()} Amanuel Hayele. All rights reserved.
         </p>
       </div>
     </footer>
