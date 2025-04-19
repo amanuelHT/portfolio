@@ -10,16 +10,25 @@ import {
 import { SiNextdotjs, SiTypescript } from "react-icons/si";
 
 const skills = [
-  { name: "HTML", icon: <FaHtml5 className="text-2xl text-orange-600" /> },
-  { name: "CSS", icon: <FaCss3Alt className="text-2xl text-blue-500" /> },
-  { name: "Sass", icon: <FaSass className="text-2xl text-pink-400" /> },
-  { name: "Bootstrap", icon: <FaBootstrap className="text-2xl text-purple-500" /> },
-  { name: "JavaScript", icon: <FaJs className="text-2xl text-yellow-400" /> },
   { name: "React", icon: <FaReact className="text-2xl text-blue-400" /> },
-  { name: "Next JS", icon: <SiNextdotjs className="text-2xl text-black dark:text-white" /> },
+  { name: "React Native", icon: <FaReact className="text-2xl text-indigo-400" /> },
+  { name: "C#", icon: <FaCode className="text-2xl text-purple-700" /> },
+  { name: ".NET", icon: <FaCode className="text-2xl text-purple-600" /> },
+  { name: "ASP.NET Core", icon: <FaCode className="text-2xl text-purple-500" /> },
+  { name: "C++", icon: <FaCode className="text-2xl text-blue-800" /> },
   { name: "TypeScript", icon: <SiTypescript className="text-2xl text-blue-600" /> },
-  { name: "VS Code", icon: <FaCode className="text-2xl text-blue-500" /> },
+  { name: "JavaScript", icon: <FaJs className="text-2xl text-yellow-400" /> },
+  { name: "Firebase", icon: <FaCode className="text-2xl text-yellow-600" /> },
+  { name: "SQLite", icon: <FaCode className="text-2xl text-green-700" /> },
+  { name: "SQL", icon: <FaCode className="text-2xl text-gray-600" /> },
+  { name: "Kubernetes", icon: <FaCode className="text-2xl text-blue-400" /> },
+  { name: "Docker", icon: <FaCode className="text-2xl text-blue-600" /> },
+  { name: "Terraform", icon: <FaCode className="text-2xl text-purple-500" /> },
+  { name: "CI/CD", icon: <FaCode className="text-2xl text-teal-600" /> },
+  { name: "Git", icon: <FaCode className="text-2xl text-orange-500" /> },
 ];
+
+
 
 const About = () => {
   return (
@@ -28,22 +37,23 @@ const About = () => {
         
         {/* About Me */}
         <div>
-          <h2 className="text-3xl font-bold mb-6">About me</h2>
-          <p className="text-lg md:text-xl leading-relaxed mb-4">
-            As a Front-End Developer, I am passionate about creating visually stunning and user-friendly web applications that solve problems.
-          </p>
-          <p className="text-lg md:text-xl leading-relaxed mb-4">
-            My background includes selling books online, building no-code websites, and creating ads. I even tried to start a tech start-up.
-          </p>
-          <p className="text-lg md:text-xl leading-relaxed mb-4">
-            I love learning new technologies and using them to build practical solutions. I’m eager to grow and contribute!
-          </p>
-        </div>
+  <h2 className="text-3xl font-bold mb-6">About me</h2>
+  <p className="text-lg md:text-xl leading-relaxed mb-4">
+    I'm a recent Computer Engineering graduate from the University of Agder (UiA), with a specialization in Software Development.
+  </p>
+  <p className="text-lg md:text-xl leading-relaxed mb-4">
+    I’ve developed and deployed full-stack <strong>web and mobile applications</strong>, <strong>desktop software</strong>, and handled <strong>DevOps pipelines</strong> including infrastructure setup using <strong>Kubernetes and Terraform</strong>. I enjoy working across the stack — from intuitive frontend interfaces to scalable backend systems.
+  </p>
+  <p className="text-lg md:text-xl leading-relaxed mb-4">
+    I love learning new technologies and using them to build practical solutions. I’m eager to grow and contribute!
+  </p>
+</div>
+
 
         {/* Skills */}
         <div className="max-w-md flex flex-col items-start">
           <h2 className="text-2xl font-bold mb-6">Skill</h2>
-          <div className="grid grid-cols-2 sm:grid-cols-3 gap-4 w-full">
+          <div className="grid grid-cols-2 sm:grid-cols-4 gap-1 w-full">
             {skills.map((skill, index) => (
               <div
                 key={index}
