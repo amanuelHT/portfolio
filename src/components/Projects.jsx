@@ -72,7 +72,7 @@ Features include animated tetrominoes, intuitive game controls, and a scoring sy
   tags: ["Kubernetes", "Terraform", "OpenStack", "Containerd", "Calico", "Infrastructure",],
   desc: `A university project developed during the IKT210 course at UiA. This project involved setting up a Kubernetes cluster using Terraform and OpenStack.
 
-The cluster includes a master and two worker nodes, configured with containerd as the runtime, Calico for networking, local-path provisioner for storage, and an Nginx deployment for validation.
+The cluster includes a master and two worker nodes, configured with containerd as the runtime, Calico for networking, local-path provisioner for storage, and an Nginx deployment for validation. 
 Includes infrastructure automation with Terraform and full documentation (report available on request).`,
 },
 {
@@ -92,7 +92,7 @@ It is a full-stack event management platform where student organizations can pub
   desc: "A responsive and animated portfolio website built with React and Tailwind CSS to showcase my skills and projects. It features dynamic sections, dark/light mode, and smooth scroll animations.",
   image: portfolioImg, // import this from './assets/portfolio.png'
   code: "https://github.com/amanuelHT/portfolio",
-  tags: [ "React", "Tailwind CSS", "Portfolio", "Web Apps",]
+  tags: [ "React", "Tailwind CSS", "Web Apps",]
 },
 
 
@@ -124,9 +124,9 @@ const Projects = () => {
       className="relative z-10 bg-[#0f2c2f] text-white py-20 px-4 md:px-8"
     >
       <div className="max-w-7xl mx-auto">
-        <h2 className="text-3xl font-bold mb-6">Personal Projects</h2>
+        <h2 className="text-3xl font-bold mb-6">Projects</h2>
         <p className="mb-10 text-gray-200">
-          Here's a collection of my latest software development projects. Each one focuses on solving real-world problems with clean design and functionality.
+        Showcasing full-stack apps, tools, and infrastructure with a focus on DevOps, orchestration, and real-world problem solving.
         </p>
 
         <div className="flex flex-wrap gap-2 mb-10">

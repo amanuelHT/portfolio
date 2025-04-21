@@ -1,9 +1,9 @@
-import {
+/*import {
   FaLinkedinIn,
   FaGithub,
   FaGitlab,
   FaBitbucket,
-} from "react-icons/fa";
+} from "react-icons/fa";*/
 import Particles from "react-tsparticles";
 import { useCallback } from "react";
 import { loadSlim } from "tsparticles-slim";
@@ -48,45 +48,7 @@ const Footer = () => {
       />
 
            <div className="relative z-10 max-w-5xl mx-auto">
-       {/* Footer Content */
-  <p className="text-lg font-semibold mb-6">Social!</p> }
-
-        {/* Social Icons */}
-        <div className="flex justify-center gap-6 mb-6">
-          <a
-            href="https://linkedin.com"
-            target="_blank"
-            rel="noreferrer"
-            className="w-12 h-12 bg-[#0077b5] text-white rounded-full flex items-center justify-center text-2xl shadow hover:scale-110 transition"
-          >
-            <FaLinkedinIn />
-          </a>
-          <a
-            href="https://github.com"
-            target="_blank"
-            rel="noreferrer"
-            className="w-12 h-12 bg-[#333] text-white rounded-full flex items-center justify-center text-2xl shadow hover:scale-110 transition"
-          >
-            <FaGithub />
-          </a>
-          <a
-            href="https://gitlab.com"
-            target="_blank"
-            rel="noreferrer"
-            className="w-12 h-12 bg-[#fc6d26] text-white rounded-full flex items-center justify-center text-2xl shadow hover:scale-110 transition"
-          >
-            <FaGitlab />
-          </a>
-          <a
-            href="https://bitbucket.org"
-            target="_blank"
-            rel="noreferrer"
-            className="w-12 h-12 bg-[#205081] text-white rounded-full flex items-center justify-center text-2xl shadow hover:scale-110 transition"
-          >
-            <FaBitbucket />
-          </a>
-        </div>
-
+       
         <p className="text-sm">
           &copy; {new Date().getFullYear()} Amanuel Hayele. All rights reserved.
         </p>
