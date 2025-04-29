@@ -126,7 +126,7 @@ const Projects = () => {
       <div className="max-w-7xl mx-auto">
         <h2 className="text-3xl font-bold mb-6">Projects</h2>
         <p className="mb-10 text-gray-200">
-        Showcasing full-stack apps, tools, and infrastructure with a focus on DevOps, orchestration, and real-world problem solving.
+        Showcasing full-stack apps, tools, and infrastructure with a focus on DevOps, orchestration, and real-world problem solving. 
         </p>
 
         <div className="flex flex-wrap gap-2 mb-10">

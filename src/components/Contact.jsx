@@ -9,20 +9,7 @@ const Contact = () => {
       <div className="max-w-2xl mx-auto animate-fade-in">
         <h2 className="text-2xl md:text-3xl font-bold mb-4">Get in touch</h2>
         
-        <p className="mb-4 text-base md:text-lg leading-relaxed">
-          <a
-            href="mailto:aman3hda@gmail.com"
-            className="font-semibold underline ml-1 hover:text-[#1e4245] transition"
-          >
-            aman3hda@gmail.com
-          </a>
-        </p>
-
-        <a href="mailto:aman3hda@gmail.com">
-          <button className="bg-[#0f2c2f] text-white px-5 py-2 rounded shadow hover:bg-[#1e4245] transition text-sm">
-            Send Email
-          </button>
-        </a>
+      
 
         {/* Social Icons */}
         <div className="flex justify-center gap-4 mt-8 text-xl">
