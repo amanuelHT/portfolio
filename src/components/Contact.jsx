@@ -14,7 +14,7 @@ const Contact = () => {
         {/* Social Icons */}
         <div className="flex justify-center gap-4 mt-8 text-xl">
           <a
-            href="https://www.linkedin.com/in/amanuel-tsegay-19b6882a1"
+            href="https://www.linkedin.com/in/amanuel-hayele-19b6882a1"
             target="_blank"
             rel="noreferrer"
             className="bg-[#0077b5] text-white w-10 h-10 rounded-full flex items-center justify-center hover:scale-110 transition-transform shadow-md"
