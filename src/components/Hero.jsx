@@ -1,7 +1,7 @@
 import { useCallback } from "react";
 import Particles from "react-tsparticles";
 import { loadSlim } from "tsparticles-slim"; 
-import profileImg from './assets/profile.png';
+//import profileImg from './assets/profile.png';
 
 const Hero = () => {
   // Initialize particles
@@ -48,13 +48,13 @@ const Hero = () => {
 <div className="max-w-7xl mx-auto h-full flex flex-col md:flex-row items-center justify-start md:justify-center gap-10 md:gap-24 pt-12 md:pt-20 relative z-10">
 
     {/* Left - Text */}
-    <div className="text-center md:text-left animate-fade-in md:-mt-32">
+    <div className="text-center md:text-left animate-fade-in md:-mt-8">
 
    
     <h1 className="text-4xl md:text-7xl text-white font leading-tight text-accent md:ml-10">
 
   Hi, I’m <br />
-  <span className="text-5xl md:text-6xl text-white font-bold block">Amanuel</span>
+  <span className="text-5xl md:text-6 xl text-white font-bold block">Amanuel</span>
   <span className="text-5xl md:text-6xl font-bold  text-white block">Hayele!</span>
 </h1>
 
@@ -70,17 +70,7 @@ const Hero = () => {
 
     </div>
 
-    {/* Right - Profile */}
-    <div className="animate-fade-in delay-200">
-    <div className="rounded-full   p-1 bg-[#f6e8d7]">
-  <img
-    src={profileImg}
-    alt="Profile"
-    className="w-[300px] h-[380px] object-top object-cover rounded-full"
-  />
-</div>
-
-    </div>
+    
   </div>
 </section>
 
