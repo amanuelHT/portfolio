@@ -8,6 +8,7 @@ import tetrisImg from './assets/tetris.png'
 import portfolioImg from './assets/portfolio.png'
 import skjerImg from './assets/skjera.png'; 
 import k8sImg from './assets/k8s-cluster.png'; 
+import devImg from "../assets/report-devops.png";
 
 const projects = [
   {
@@ -36,7 +37,7 @@ The app integrates Firebase for user authentication, cloud storage, and secure m
   {
     title: "DevOps Project",
     category: ["Automation", "Deployment"],
-    image: reportImg,
+    image: devImg,
     code: "https://gitlab.internal.uia.no/ikt206-g-25v-devops/Group23/exam-ikt206",
     tags: ["GitLab CI/CD", "Kubernetes", "Docker",  "ArgoCD", "PostgreSQL", "Grafana", ],
     desc: `This university project was developed as part of the IKT206 - DevOps course. In a simulated consulting role for Auby & Brinch Finance, I engineered a full DevOps pipeline using GitLab CI, Docker, and Kubernetes. The system supports automated testing, container image building with Kaniko, GitOps-based deployment using ArgoCD, PostgreSQL integration, and cluster monitoring via Grafana and Prometheus.`
