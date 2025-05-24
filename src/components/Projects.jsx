@@ -36,10 +36,10 @@ The app integrates Firebase for user authentication, cloud storage, and secure m
   
   {
     title: "DevOps Project",
-    category: ["Automation", "Deployment"],
+   category: ["Automation ", "Deployment"],
     image: devImg,
     code: "https://gitlab.internal.uia.no/ikt206-g-25v-devops/Group23/exam-ikt206",
-    tags: ["GitLab CI/CD", "Kubernetes", "Docker",  "ArgoCD", "PostgreSQL", "Grafana", ],
+    tags: ["GitLab CI/CD", "Kubernetes", "Docker",  "ArgoCD", "PostgreSQL", "Grafana", "Automation", "Deployment",],
     desc: `This university project was developed as part of the IKT206 - DevOps course, full DevOps pipeline using GitLab CI, Docker, and Kubernetes. The system supports automated testing, container image building with Kaniko, GitOps-based deployment using ArgoCD, PostgreSQL integration, and cluster monitoring via Grafana.`
   },
 
@@ -48,7 +48,7 @@ The app integrates Firebase for user authentication, cloud storage, and secure m
     title: "Study Group Finder",
     category: "Web App",
     image: studyGroupImg,
-    code: "https://github.com/Teklit17/Study-Group-Finder", // replace if different
+    code: "https://github.com/Teklit17/Study-Group-Finder", 
     tags: ["ASP.NET Core MVC", "Azure SQL", "SignalR", "FullCalendar", "Feide", "Web Apps", ],
     desc: `A full-stack platform for students to find and join study groups. 
   Supports real-time chat using SignalR, calendar events via FullCalendar, and secure Feide login for authentication. 
@@ -103,7 +103,7 @@ It is a full-stack event management platform where student organizations can pub
   title: "Personal Portfolio",
   category: "Portfolio Website",
   desc: "A responsive and animated portfolio website built with React and Tailwind CSS to showcase my skills and projects. It features dynamic sections, dark/light mode, and smooth scroll animations.",
-  image: portfolioImg, // import this from './assets/portfolio.png'
+  image: portfolioImg, 
   code: "https://github.com/amanuelHT/portfolio",
   tags: [ "React", "Tailwind CSS", "Web Apps",]
 },
