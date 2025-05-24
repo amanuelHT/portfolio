@@ -34,6 +34,16 @@ The app integrates Firebase for user authentication, cloud storage, and secure m
 
   
   {
+    title: "DevOps Project",
+    category: ["Automation", "Deployment"],
+    image: reportImg,
+    code: "https://gitlab.internal.uia.no/ikt206-g-25v-devops/Group23/exam-ikt206",
+    tags: ["GitLab CI/CD", "Kubernetes", "Docker",  "ArgoCD", "PostgreSQL", "Grafana", ],
+    desc: `This university project was developed as part of the IKT206 - DevOps course. In a simulated consulting role for Auby & Brinch Finance, I engineered a full DevOps pipeline using GitLab CI, Docker, and Kubernetes. The system supports automated testing, container image building with Kaniko, GitOps-based deployment using ArgoCD, PostgreSQL integration, and cluster monitoring via Grafana and Prometheus.`
+  },
+
+  
+  {
     title: "Study Group Finder",
     category: "Web App",
     image: studyGroupImg,
@@ -44,6 +54,8 @@ The app integrates Firebase for user authentication, cloud storage, and secure m
   
   Developed as part of a university project, it allows students to collaborate efficiently with features like group creation, joining, and member management.`,
   },
+
+
 
 {
   title: "Roomlink",
